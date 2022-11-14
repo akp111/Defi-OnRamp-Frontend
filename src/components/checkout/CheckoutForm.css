@@ -1,0 +1,46 @@
+.checkout-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  margin: 10% 35% 10% 25%;
+  border-radius: 2rem;
+}
+.checkout-item{
+  margin: 3vh 0;
+}
+
+.checkout-input {
+  background-image: linear-gradient(to right bottom, #c420eb, #ae25f1, #942bf6, #7431fb, #4637ff);
+  color: white;
+  padding: 1.5vh;
+  font-size: 1rem;
+  border: 0px solid black;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.checkout-input::placeholder{
+  color: white;
+
+}
+.card-div{
+  background-image: linear-gradient(to right bottom, #c420eb, #ae25f1, #942bf6, #7431fb, #4637ff);
+  padding: 1.5vh 0;
+  padding-left: 0.5vw;
+  border: 0px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+.checkout-button{
+  background-image: linear-gradient(to right bottom, #c420eb, #ae25f1, #942bf6, #7431fb, #4637ff);
+  width: fit-content;
+  color: white;
+  font-size: 3vh;;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 0px solid white;
+  margin: 0 40%;
+}

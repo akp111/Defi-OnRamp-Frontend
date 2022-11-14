@@ -1,0 +1,29 @@
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding:1rem 3rem;
+    margin-top: -2.8%;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar h1{
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar-button {
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);  width: fit-content;
+    color: black;
+    font-size: 2vh;;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    border: 0px solid white;
+    cursor: pointer;
+}

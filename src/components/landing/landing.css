@@ -1,0 +1,109 @@
+.landing-content {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    margin: -5rem;
+    align-items: center;
+}
+.landing-sub {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ h1 {    
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.landing-content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.landing-sub p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: -0.8rem 0 0 0.8rem;
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);   
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.section2{
+    margin-top: 10%;
+}
+.section2-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.section2-steps{
+    display: flex;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+.section2-steps .step-1{
+    width: 33%;
+    height: 20rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-right: 2%;
+    text-align: center;
+    background: white;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.section2-steps .step-1 h3 {
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);   
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.section2-steps .step-2{
+    width: 33%;
+    height: 20rem;
+    border-style: solid;
+    border-color: white;
+    margin-right: 2%;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.section2-steps .step-2 h3 {
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);   
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.section2-steps .step-3{
+    width: 33%;
+    height: 20rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.section2-steps .step-3 h3 {
+    background: radial-gradient(circle, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);   
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.section3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

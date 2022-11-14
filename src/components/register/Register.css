@@ -1,0 +1,62 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  margin: 10% 30% 10% 30%;
+  border-radius: 2rem;
+  /* height: 100vh; */
+}
+.register-item {
+  
+  margin: 3vh ; 
+}
+
+.register-heading {
+  align-self: center;
+  color: purple;
+}
+.register-input  {
+  background-image: linear-gradient(to right, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);
+  color: white;
+  /* width: inherit; */
+  padding: 1.5vh;
+  font-size: 1rem;
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.register-input::placeholder {
+  color: white;
+}
+
+.register-button-div {
+  display: flex;
+  justify-content: center;
+}
+.register-button{
+    background-image: linear-gradient(to right, #ff00cc, #cd27c8, #9a33be, #6836ae, #333399);
+    /* width: 12vw; */
+    width: fit-content;
+    padding: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 5%;
+    /* height: 5vh; */
+    border-radius: 10px;
+    border: 0px solid white;
+    cursor: pointer;
+  }
+
+  .error-div{
+    background-color: rgb(231, 78, 78);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
